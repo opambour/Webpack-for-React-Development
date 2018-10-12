@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: row wrap;
+    align-content: center;
+    margin-right: 20px;
+}
+
+.nav-ul {
+    display: flex;
+    flex-wrap: row wrap;
+    li {
+        line-height: 30px;
+        list-style: none;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0 24px;
+            &:hover,
+            {
+                color: gray;
+                background: #e7f6fa;
+                padding: 23px;
+                border-left: 1px solid #000;
+                border-right: 1px solid #000;
+            }
+        }
+    }
+}
+
+.flex-start {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+.push-left {
+    margin-right: auto;
+}
+
+
+/* ---------------------------- flex item -------------------------------*/
+
+.flex-lg-1 {
+    flex: 1;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-2 {
+    flex: 2;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-3 {
+    flex: 3;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-4 {
+    flex: 4;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-5 {
+    flex: 5;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-6 {
+    flex: 6;
+    margin: 0 15px 0 15px;
+}
+
+.flex-lg-7 {
+    flex: 7;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-8 {
+    flex: 8;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-9 {
+    flex: 9;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-10 {
+    flex: 10;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-11 {
+    flex: 11;
+    margin: 15px 15px 0 15px;
+}
+
+.flex-lg-12 {
+    flex: 12 100%;
+    margin: 0 15px 0 15px;
+}
+
+
+/* ----------------------------- Position ------------------------ */
+
+.text-center {
+    text-align: center;
+}

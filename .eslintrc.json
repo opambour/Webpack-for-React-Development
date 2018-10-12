@@ -1,0 +1,49 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "eol-last": ["error", "never"],
+        "max-len": 0,
+        "no-console": ["error", {
+            "allow": ["warn", "error", "log"]
+        }],
+        "indent": [
+            0,
+            "tab"
+        ],
+        "import/prefer-default-export": false,
+        "import/no-unresolved": 0,
+        "jsx-a11y/anchor-is-valid": false,
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-useless-constructor": "off",
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-undef": 0,
+        "no-unreachable": "warn",
+        "no-unused-vars": "off",
+        "constructor-super": "warn",
+        "global-require": 0,
+        "valid-typeof": "warn",
+        "no-extra-semi": "error",
+        "object-curly-newline": "off",
+        "react/prefer-stateless-function": 0,
+        "react/jsx-indent": 12,
+        "react/jsx-one-expression-per-line": 0,
+        "react/jsx-uses-react": 1,
+        "react/jsx-curly-brace-presence": 0,
+        "react/jsx-curly-spacing": 0,
+        "react/jsx-equals-spacing": 0,
+        "react/jsx-first-prop-new-line": 0,
+        "react/jsx-indent-props": 0,
+        "react/jsx-closing-tag-location": 0,
+        "react/forbid-prop-types": "off",
+        "react/no-unescaped-entities": "off"
+    }
+}

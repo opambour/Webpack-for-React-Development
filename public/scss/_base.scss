@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url('../font/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto-regular', serif;
+    font-size: 14px;
+    margin: 0 auto;
+    background-color: #e7f6fa;
+}
+
+header {
+    background-color: #333333;
+    height: 60px;
+    border-bottom: 1px solid #000;
+}
+
+main {
+    padding: 20px;
+}
+
+#appLogo {
+    border-radius: 50%;
+    border: 2px solid #32cff2;
+    animation: three-sixty-spin 3s infinite; // name your animation | delay | animation-iteration-count
+    animation-timing-function: linear; // The speed curve is used to make the changes smoothly.
+}
+
+#brand {
+    color: #32cff2;
+    line-height: 12px;
+}
+
+@keyframes three-sixty-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+a {
+    text-decoration: none;
+}
