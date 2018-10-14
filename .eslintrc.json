@@ -1,5 +1,16 @@
 {
     "extends": "airbnb",
+    "plugins": [
+        "react"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "ecmaVersion": 2018,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
     "rules": {
         "eol-last": ["error", "never"],
         "max-len": 0,
@@ -34,7 +45,7 @@
         "no-extra-semi": "error",
         "object-curly-newline": "off",
         "react/prefer-stateless-function": 0,
-        "react/jsx-indent": 12,
+        "react/jsx-indent": "off",
         "react/jsx-one-expression-per-line": 0,
         "react/jsx-uses-react": 1,
         "react/jsx-curly-brace-presence": 0,
@@ -44,6 +55,7 @@
         "react/jsx-indent-props": 0,
         "react/jsx-closing-tag-location": 0,
         "react/forbid-prop-types": "off",
-        "react/no-unescaped-entities": "off"
+        "react/no-unescaped-entities": "off",
+        "react/no-multi-comp": "off"
     }
 }

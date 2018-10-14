@@ -66,3 +66,16 @@ You can follow the below tutorials and create your own webpack from scratch...
 
 7. Testing dependencies (jest)
     > npm i -D jest babel-jest react-test-renderer
+
+## Points to Remember
+
+### Code Splitting
+
+#### @babel/plugin-syntax-dynamic-import and react-loadable
+
+When using Babel, you’ll need to make sure that Babel can parse the dynamic import syntax but is not transforming it. For that you will need babel-plugin-syntax-dynamic-import.
+    The dynamic import() syntax is a ECMAScript (JavaScript) proposal not currently part of the language standard. It is expected to be accepted in the near future.
+
+When Webpack comes across this syntax, it automatically starts code-splitting your app. If you’re using Create React App, this is already configured for you and you can start using it immediately. It’s also supported out of the box in Next.js.
+
+react-loadable is a higher-order component for loading components with dynamic imports. It handles all sorts of edge cases automatically and makes code splitting simple! Here’s an example of how to use react-loadable:

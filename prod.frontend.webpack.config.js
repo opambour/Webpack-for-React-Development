@@ -26,7 +26,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     entry: {
-        app: './src/frontend/index.jsx',
+        index: './src/frontend/index.jsx',
     },
     output: {
         filename: '[name].build.[contenthash].js',

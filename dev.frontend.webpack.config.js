@@ -1,6 +1,5 @@
 const Webpack = require('webpack');
 const path = require('path');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
@@ -23,7 +22,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     entry: {
-        app: './src/frontend/index.jsx',
+        index: './src/frontend/index.jsx',
     },
     output: {
         filename: '[name].build.js',
